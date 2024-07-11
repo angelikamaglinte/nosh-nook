@@ -4,7 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js"
+    "build": "rm -rf node_modules && npm install"
   },
   "author": "Marie Angelika Maglinte",
   "license": "ISC",
