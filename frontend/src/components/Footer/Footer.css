@@ -13,8 +13,6 @@
 .footer-content {
     width: 80%;
     display: grid;
-    align-items: center;
-    justify-content: center;
     grid-template-columns: 1.5fr 1.5fr 1.5fr;
     gap: 80px;
     color: black;
