@@ -29,16 +29,21 @@ const Footer = () => {
                     <ul>
                         <li>hello@creativedesignstudio.co.site</li>
                         <li>+1-987-654-3210</li>
+                        <li>Careers</li>
+                        <li>Gift cards</li>
                     </ul>
                 </div>
             </div>
             <hr />
-            <p className="footer-copyright">© Nosh&Nook, Inc. &middot; Privacy &middot; Term</p>
-            <div className="footer-social-icons">
-                <img src={assets.facebook_icon} alt="" />
-                <img src={assets.twitter_icon} alt="" />
-                <img src={assets.linkedin_icon} alt="" />
+            <div className='footer-copyright-and-socials'>
+                <p className="footer-copyright">© Nosh&Nook, Inc. &middot; Privacy &middot; Term</p>
+                <div className="footer-social-icons">
+                    <img src={assets.facebook_icon} alt="" />
+                    <img src={assets.twitter_icon} alt="" />
+                    <img src={assets.linkedin_icon} alt="" />
+                </div>
             </div>
+
         </div>
     )
 }
