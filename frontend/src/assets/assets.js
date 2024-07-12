@@ -63,8 +63,8 @@ import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
 import facebook_icon from './facebook_icon.png'
-import instagram_icon from './instagram_icon'
-import youtube_icon from './youtube_icon'
+import instagram_icon from './instagram_icon.png'
+import youtube_icon from './youtube_icon.png'
 
 export const assets = {
     logo,
