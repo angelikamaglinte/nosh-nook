@@ -11,14 +11,14 @@ import profile_icon from './profile_icon.png'
 import header_img from './header_image1.jpeg'
 
 // menu 
-import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png'
-import menu_3 from './menu_3.png'
-import menu_4 from './menu_4.png'
-import menu_5 from './menu_5.png'
-import menu_6 from './menu_6.png'
-import menu_7 from './menu_7.png'
-import menu_8 from './menu_8.png'
+import menu_1 from './menu_1.jpeg'
+import menu_2 from './menu_2.jpeg'
+import menu_3 from './menu_3.jpeg'
+import menu_4 from './menu_4.jpeg'
+import menu_5 from './menu_5.jpeg'
+import menu_6 from './menu_6.jpeg'
+import menu_7 from './menu_7.jpeg'
+import menu_8 from './menu_8.jpeg'
 
 // icons
 import add_icon_white from './add_icon_white.png'
