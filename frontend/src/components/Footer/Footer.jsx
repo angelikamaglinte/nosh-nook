@@ -14,7 +14,7 @@ const Footer = () => {
                         <img src={assets.twitter_icon} alt="" />
                         <img src={assets.linkedin_icon} alt="" />
                     </div> */}
-                    <h3>Support</h3>
+                    <p>Support</p>
                     <ul>
                         <li>Help Centre</li>
                         <li>Delivery fees</li>
@@ -23,7 +23,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="footer-content-right">
-                    <h2>COMPANY</h2>
+                    <p>Nosh & Nook</p>
                     <ul>
                         <li>Home</li>
                         <li>About us</li>
@@ -32,7 +32,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="footer-content-center">
-                    <h2>GET IN TOUCH</h2>
+                    <h2>Get In Touch</h2>
                     <ul>
                         <li>hello@creativedesignstudio.co.site</li>
                         <li>+1-987-654-3210</li>
@@ -40,7 +40,12 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
-            <p className="footer-copyright">Copyright 2024 © Nosh&Nook.com - All Right Reserved.</p>
+            <p className="footer-copyright">© Nosh&Nook, Inc. &middot; Privacy &middot; Term</p>
+            <div className="footer-social-icons">
+                <img src={assets.facebook_icon} alt="" />
+                <img src={assets.twitter_icon} alt="" />
+                <img src={assets.linkedin_icon} alt="" />
+            </div>
         </div>
     )
 }
