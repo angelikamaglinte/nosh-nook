@@ -38,9 +38,9 @@ const Footer = () => {
             <div className='copyrights-and-socials-container'>
                 <div className='copyrights'>© Nosh&Nook, Inc. &middot; Privacy &middot; Term</div>
                 <div className='socials'>
-                    <img src={assets.facebook_icon} alt="" />
-                    <img src={assets.instagram_icon} alt="" />
-                    <img src={assets.youtube_icon} alt="" />
+                    <img className='socials-img' src={assets.facebook_icon} alt="" />
+                    <img className='socials-img' src={assets.instagram_icon} alt="" />
+                    <img className='socials-img' src={assets.youtube_icon} alt="" />
                 </div>
             </div>
             {/* <div className='footer-copyright-and-socials'>
