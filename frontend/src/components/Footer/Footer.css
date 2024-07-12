@@ -15,8 +15,10 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    text-align: center;
+    grid-template-columns: 2fr 2fr 2fr;
     gap: 80px;
+    color: black;
 }
 
 .footer-content-left img {
