@@ -20,10 +20,6 @@
     color: black;
 }
 
-.footer-content-left img {
-    width: 50%;
-}
-
 .footer-content-left, .footer-content-right, .footer-content-center {
     display: flex;
     flex-direction: column;
@@ -37,9 +33,6 @@
     cursor: pointer;
 }
 
-.footer-content-right h2, .footer-content-center h2 {
-    color: white;
-}
 
 .footer-social-icons img {
     width: 40px;
