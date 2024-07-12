@@ -62,6 +62,10 @@ import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
+import facebook_icon from './facebook_icon.png'
+import instagram_icon from './instagram_icon'
+import youtube_icon from './youtube_icon'
+
 export const assets = {
     logo,
     noshnnooklogo_black,
@@ -77,6 +81,8 @@ export const assets = {
     play_store,
     linkedin_icon,
     facebook_icon,
+    instagram_icon,
+    youtube_icon,
     twitter_icon,
     cross_icon,
     selector_icon,
