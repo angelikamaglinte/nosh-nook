@@ -11,12 +11,11 @@
 }
 
 .footer-content {
-    width: 100%;
+    width: 80%;
     display: grid;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
     gap: 80px;
     color: black;
 }
