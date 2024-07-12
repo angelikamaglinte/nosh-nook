@@ -56,7 +56,7 @@
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: #EEEEEE;
+    background-color: hsl(0, 86%, 32%);
     border-radius: 5px;
     top: -8px;
     right: -8px;
