@@ -7,9 +7,18 @@
     animation: fadeIn 1s;
 }
 
+.food-item-img-container {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Set a fixed height for the image container */
+    overflow: hidden; /* Ensure overflow is hidden */
+    border-radius: 15px 15px 0px 0px; /* Maintain the border radius for the container */
+}
+
 .food-item-image {
     width: 100%;
-    border-radius: 15px 15px 0px 0px;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and crop if necessary */
 }
 
 .food-item-info {
@@ -34,7 +43,7 @@
 
 .food-item-desc {
     color: #676767;
-    font-size: 15 px;
+    font-size: 15px;
 }
 
 .food-item-price {
@@ -42,10 +51,6 @@
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;
-}
-
-.food-item-img-container {
-    position: relative;
 }
 
 .food-item-img-container .add {
