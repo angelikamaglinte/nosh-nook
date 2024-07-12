@@ -38,27 +38,22 @@
     background-color: grey;
 }
 
-.footer-copyright-and-socials {
-    width: 100%;
+.copyrights-and-socials-container {
+    padding: 1% 0;
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    flex-direction: column; /* Ensure content stacks vertically on small screens */
-    text-align: center;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between copyrights and socials */
+    width: 69%;
+    margin: 0 auto;
+    text-align: center; /* Center the container */
 }
 
-.footer-copyright {
-    margin-bottom: 10px;
+.copyrights {
+    text-align: left; /* Align text to the left */
 }
 
-.footer-social-icons {
-    display: flex;
-    justify-content: center; /* Center the social icons */
-}
-
-.footer-social-icons img {
-    width: 40px;
-    margin: 0 15px;
+.socials {
+    text-align: right; /* Align text to the right */
 }
 
 @media (max-width:750px) {
