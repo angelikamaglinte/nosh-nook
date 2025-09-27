@@ -15,12 +15,19 @@ const port = process.env.PORT || 4000;
 app.use(express.json())
 app.use(cors())
 
+// static file serving with CORS headers to prevent ORB blocking
+app.use("/images", (req, res, next) => {
+    res.header('Cross-Origin-Resource-Policy', 'cross-origin');
+    res.header('Access-Control-Allow-Origin', '*');
+    next();
+}, express.static('uploads'))
+
 // db connection
 connectDB();
 
 // API endpoints
 app.use("/api/food", foodRouter)
-app.use("/images",express.static('uploads'))
+// app.use("/images",express.static('uploads'))
 app.use("/api/user", userRouter)
 app.use("/api/cart", cartRouter)
 app.use("/api/order", orderRouter)
