@@ -13,7 +13,19 @@ const port = process.env.PORT || 4000;
 
 // middleware
 app.use(express.json())
-app.use(cors())
+// app.use(cors())
+
+app.use(cors({
+    origin: [
+        "https://nosh-nook-admin.onrender.com",
+        "https://nosh-nook.onrender.com",
+        "http://localhost:3000",
+        "http://localhost:5173"
+    ],
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'token']
+}))
 
 // static file serving with CORS headers to prevent ORB blocking
 app.use("/images", (req, res, next) => {
@@ -32,11 +44,11 @@ app.use("/api/user", userRouter)
 app.use("/api/cart", cartRouter)
 app.use("/api/order", orderRouter)
 
-app.get("/", (req,res)=> {
+app.get("/", (req, res) => {
     res.send("API Working...")
 })
 
-app.listen(port,()=>{
+app.listen(port, () => {
     console.log(`Server Started on http://localhost:${port}`)
 })
 
